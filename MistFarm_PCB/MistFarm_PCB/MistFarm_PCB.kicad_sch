@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 90.17 121.92) (xy 100.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e0bf79-a706-41d7-970c-e97049055b69")
+	)
+	(wire
+		(pts
+			(xy 90.17 118.11) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd62b3f-71b3-4555-9392-a9f7b1d362de")
+	)
+	(wire
+		(pts
 			(xy 90.17 143.51) (xy 100.33 143.51)
 		)
 		(stroke
@@ -109,7 +129,7 @@
 	)
 	(sheet
 		(at 100.33 101.6)
-		(size 49.53 49.53)
+		(size 49.53 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -133,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 100.33 151.7146 0)
+			(at 100.33 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,6 +164,26 @@
 		(pin "AC_TRIAC_Switching" input
 			(at 100.33 143.51 180)
 			(uuid "ce4384f3-24b7-44e7-89cd-cd4303982ed0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 100.33 121.92 180)
+			(uuid "25880918-5801-4289-8b65-25f3c3d14611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDL" bidirectional
+			(at 100.33 118.11 180)
+			(uuid "df576495-7656-4e70-9598-7c46f2a3abd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,6 +257,68 @@
 			(project "MistFarm_PCB"
 				(path "/341a7a15-82cf-4310-8068-7e972317a825"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 107.95)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eabb6d66-75de-49cc-9554-07b6f8fd9924")
+		(property "Sheetname" "Sensor"
+			(at 58.42 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 58.42 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Humi_CLK" input
+			(at 90.17 121.92 0)
+			(uuid "36b704a5-951e-47d8-a96b-23b2daf469eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Humi_Data" bidirectional
+			(at 90.17 118.11 0)
+			(uuid "90a3ec87-1969-4d90-9235-2a00e0e0b616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MistFarm_PCB"
+				(path "/341a7a15-82cf-4310-8068-7e972317a825"
+					(page "5")
 				)
 			)
 		)
