@@ -623,6 +623,10 @@
     [
       "e87aa4b1-b142-4dda-94dc-9822a5c5d024",
       "3.3V generator"
+    ],
+    [
+      "eabb6d66-75de-49cc-9554-07b6f8fd9924",
+      "Sensor"
     ]
   ],
   "text_variables": {}

@@ -12335,7 +12335,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c66d53e6-3555-4adf-93fb-5d04a33f6858")
 		(property "Reference" "#PWR050"
 			(at 223.52 62.23 0)
@@ -12347,7 +12346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 63.5 0)
+			(at 227.076 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OLED"
+		(property "Value" "I2C"
 			(at 199.39 160.0199 0)
 			(effects
 				(font
