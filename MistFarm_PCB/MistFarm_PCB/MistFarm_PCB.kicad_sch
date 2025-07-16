@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 114.3) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7867204f-5e08-4de9-9424-0aac1b9128e6")
+	)
+	(wire
+		(pts
 			(xy 90.17 143.51) (xy 100.33 143.51)
 		)
 		(stroke
@@ -191,6 +201,16 @@
 				(justify left)
 			)
 		)
+		(pin "Temp_Sensor" output
+			(at 100.33 114.3 180)
+			(uuid "aa13f8a1-f5c6-44c7-800f-f7029c04d1c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "MistFarm_PCB"
 				(path "/341a7a15-82cf-4310-8068-7e972317a825"
@@ -308,6 +328,16 @@
 		(pin "Humi_Data" bidirectional
 			(at 90.17 118.11 0)
 			(uuid "90a3ec87-1969-4d90-9235-2a00e0e0b616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Temp_OUTPUT" input
+			(at 90.17 114.3 0)
+			(uuid "fac45aab-ead7-4ced-85f1-ca513a11dbd0")
 			(effects
 				(font
 					(size 1.27 1.27)
