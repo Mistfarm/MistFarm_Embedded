@@ -13622,7 +13622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "HTSW-104-20-TM-S"
 			(at 199.39 160.0199 0)
 			(effects
 				(font

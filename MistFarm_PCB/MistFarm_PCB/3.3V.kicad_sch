@@ -2429,7 +2429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C190GKT"
 			(at 152.4 44.1324 90)
 			(effects
 				(font
