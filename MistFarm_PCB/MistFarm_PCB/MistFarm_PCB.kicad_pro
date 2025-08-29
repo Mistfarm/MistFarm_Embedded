@@ -605,7 +605,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -653,7 +653,7 @@
           "group_by": false,
           "label": "설명",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
