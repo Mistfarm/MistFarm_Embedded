@@ -5544,10 +5544,6 @@
 		(uuid "ffba07f0-a832-4a1b-8a44-f43e9cce5b55")
 	)
 	(no_connect
-		(at 97.79 115.57)
-		(uuid "01a80c26-7143-4de3-a87d-e761ec2a0105")
-	)
-	(no_connect
 		(at 97.79 77.47)
 		(uuid "25abe22d-5068-478c-aff3-5c0acc654303")
 	)
@@ -6340,6 +6336,16 @@
 			(type default)
 		)
 		(uuid "5ca33727-cde7-4e65-8e09-7c69404cb646")
+	)
+	(wire
+		(pts
+			(xy 97.79 115.57) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f143ce1-7264-4185-a697-16d3d17472ea")
 	)
 	(wire
 		(pts
@@ -7750,6 +7756,17 @@
 		)
 		(uuid "1cce02fd-7ebb-4d7e-b31b-953a166bf0a8")
 	)
+	(hierarchical_label "GPS_RX2"
+		(shape output)
+		(at 101.6 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "348433cd-4f9e-4795-a39c-1333340cfc3d")
+	)
 	(hierarchical_label "JTAG_MTDO"
 		(shape output)
 		(at 55.88 160.02 180)
@@ -7794,17 +7811,6 @@
 		)
 		(uuid "39d326e1-4d02-4e09-94db-d0b71829994c")
 	)
-	(hierarchical_label "SPI_Reset"
-		(shape input)
-		(at 101.6 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ea2c9d1-5b6a-40b4-8d2f-9d3893be7828")
-	)
 	(hierarchical_label "SPI_MISO"
 		(shape output)
 		(at 101.6 100.33 0)
@@ -7837,17 +7843,6 @@
 			(justify left)
 		)
 		(uuid "464c1fef-a7b1-43c8-83e0-8082232e4746")
-	)
-	(hierarchical_label "AC_TRIAC_Switching"
-		(shape input)
-		(at 101.6 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47f89f40-dc12-467c-8fb1-f4d9bfef4ba5")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
@@ -7892,6 +7887,17 @@
 			(justify left)
 		)
 		(uuid "54b326fd-0b8d-4f6c-8734-5792316dae88")
+	)
+	(hierarchical_label "GPS_TX2"
+		(shape input)
+		(at 101.6 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "601d23a6-de8c-4dec-bc62-fce580ccfc31")
 	)
 	(hierarchical_label "JTAG_MTDI"
 		(shape output)
@@ -8112,6 +8118,17 @@
 			(justify left)
 		)
 		(uuid "f17125c2-1c45-4575-9156-e22ecc8c862f")
+	)
+	(hierarchical_label "AC_TRIAC_Switching"
+		(shape input)
+		(at 101.6 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5615867-14bd-42ac-88ef-fc8ea4b7467c")
 	)
 	(hierarchical_label "JTAG_MTDI"
 		(shape input)
