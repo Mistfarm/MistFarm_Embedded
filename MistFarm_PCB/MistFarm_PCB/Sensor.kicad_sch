@@ -1455,7 +1455,7 @@
 		(dnp no)
 		(uuid "0e4724b6-d0c2-4ec2-9a00-e76ebf055f41")
 		(property "Reference" "NTCG103JX103DT1S1"
-			(at 59.69 135.89 90)
+			(at 61.468 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
