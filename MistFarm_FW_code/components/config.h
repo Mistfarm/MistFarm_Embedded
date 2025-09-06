@@ -12,8 +12,13 @@
 #define TEMP_SENSOR 25
 #define HUMI_I2C_SDL 21
 #define HUMI_I2C_SCL 22
-#define GPS_RX 17
-#define GPS_TX 16
+
+#define GPS_RX_PIN         17
+#define GPS_TX_PIN         16
+#define GPS_UART_PORT      UART_NUM_2
+#define GPS_BAUD_RATE      9600
+#define RX_BUF_SIZE        1024
+
 
 typedef struct PresentStatus{
   double latit; // 위도
@@ -24,4 +29,5 @@ typedef struct PresentStatus{
 
 PresentStatus save_status;
 
+static const char *TAG = "GPS";
 #endif /* COMPONENTS_CONFIG_H_ */
