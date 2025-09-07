@@ -1,7 +1,7 @@
 /*
- * common.h
+ * global.h
  *
- *  Created on: 2025. 9. 6.
+ *  Created on: 2025. 9. 7.
  *      Author: user
  */
 
@@ -12,17 +12,17 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 #include <unistd.h>
+#include "cJSON.h"
 #include <esp_websocket_client.h>
+#include "esp_event_base.h"
+#include "esp_log.h"
+#include "esp_websocket_client.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/event_groups.h"
 #include "driver/uart.h"
-#include "esp_log.h"
 
-#include "gps/GPS.h"
-#include "sensor/Sensor.h"
-#include "swiching/Switching.h"
-#include "wss/WSS.h"
-#include "wifi/wifi.h"
 
 #endif /* COMPONENTS_GLOBAL_H_ */
