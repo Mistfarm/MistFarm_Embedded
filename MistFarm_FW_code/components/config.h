@@ -8,6 +8,8 @@
 #ifndef COMPONENTS_CONFIG_H_
 #define COMPONENTS_CONFIG_H_
 
+#include "global.h"
+
 #define AC_TRIAC_SWITCHING 27
 #define TEMP_SENSOR 25
 #define HUMI_I2C_SDL 21
@@ -19,15 +21,33 @@
 #define GPS_BAUD_RATE      9600
 #define RX_BUF_SIZE        1024
 
+#define HOST_IP_ADDR "https://flp24.com"
+#define PORT "443"
+#define WIFI_CONNECTED_BIT BIT0
+#define DNS_PORT 53
+#define DNS_MAX_LEN 256
+
 
 typedef struct PresentStatus{
   double latit; // 위도
   double longi; // 경도
   double temp;
   double humi;
+  uint8_t on_time;
+  uint8_t off_time;
 }PresentStatus;
 
-PresentStatus save_status;
+PresentStatus save_status = {
+	.latit = 0,
+	.longi = 0,
+	.temp = 25,
+	.humi = 50,
+	.on_time = 10, // 단위 second
+	.off_time = 10
+};
 
-static const char *TAG = "GPS";
+static const char *GPS_TAG = "GPS";
+static const char *WSS_TAG = "WSS";
+
+static EventGroupHandle_t wifi_event_group;
 #endif /* COMPONENTS_CONFIG_H_ */
