@@ -1,13 +1,6 @@
-/*
- * WSS.h
- *
- *  Created on: 2025. 9. 7.
- *      Author: user
- */
+#include "wss/WSS.h"
 
-#include "WSS.h"
-
-static void websocket_event_handler(void *handler_args, esp_event_base_t base,
+void websocket_event_handler(void *handler_args, esp_event_base_t base,
                                     int32_t event_id, void *event_data) {
     esp_websocket_event_data_t *event = (esp_websocket_event_data_t *)event_data;
 
@@ -25,7 +18,6 @@ static void websocket_event_handler(void *handler_args, esp_event_base_t base,
             if (rx_data) {
                 cJSON *root = cJSON_Parse(rx_data);
                 if (root) {
-                    cJSON *danger_array = cJSON_GetObjectItem(root, "danger");
                     // 데이터 받는 코드
                 }
                 free(rx_data);
@@ -37,7 +29,7 @@ static void websocket_event_handler(void *handler_args, esp_event_base_t base,
     }
 }
 
-void wss_client_task(void *pv_parameters) {
+void wss_task(void *pvParameters) {
     esp_websocket_client_config_t websocket_cfg = {
         .uri = "wss://" HOST_IP_ADDR ":" PORT "/",
         .network_timeout_ms = 10000,

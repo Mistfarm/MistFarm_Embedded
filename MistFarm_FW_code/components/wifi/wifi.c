@@ -5,11 +5,4 @@
  *      Author: user
  */
 
-#ifndef COMPONENTS_WIFI_H_
-#define COMPONENTS_WIFI_H_
-
-
-
-
-
-#endif /* COMPONENTS_WIFI_H_ */
+#include "wifi/wifi.h"
