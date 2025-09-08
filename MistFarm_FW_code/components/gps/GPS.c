@@ -5,9 +5,9 @@
  *      Author: user
  */
 
-#include "GPS.h"
+#include "gps/GPS.h"
 
-static double convert_to_decimal_degrees(const char* nmea_coord, char direction) {
+double convert_to_decimal_degrees(const char* nmea_coord, char direction) {
     if (nmea_coord == NULL || *nmea_coord == '\0') {
         return 0.0;
     }
@@ -24,7 +24,7 @@ static double convert_to_decimal_degrees(const char* nmea_coord, char direction)
     return decimal_degrees;
 }
 
-static bool parse_gprmc_and_update_status(char *nmea_sentence) {
+bool parse_gprmc_and_update_status(char *nmea_sentence) {
     char *tokens[15];
     int i = 0;
 

@@ -5,11 +5,4 @@
  *      Author: user
  */
 
-#ifndef COMPONENTS_SENSOR_H_
-#define COMPONENTS_SENSOR_H_
-
-
-
-
-
-#endif /* COMPONENTS_SENSOR_H_ */
+#include "sensor/sensor.h"
