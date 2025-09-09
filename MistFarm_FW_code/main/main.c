@@ -2,7 +2,6 @@
 #include "wss/WSS.h"
 #include "mistfarm/config.h"
 
-
 void app_main(void)
 {
 	
