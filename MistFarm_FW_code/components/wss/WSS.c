@@ -37,7 +37,6 @@ void wss_task(void *pvParameters) {
     esp_websocket_client_handle_t client = esp_websocket_client_init(&websocket_cfg);
     esp_websocket_register_events(client, WEBSOCKET_EVENT_ANY, websocket_event_handler, (void *)client);
     while (1) {
-
         if (esp_websocket_client_is_connected(client)) {
 			// 코드 작성 요함
 			ESP_LOGI(WSS_TAG, "연결됨");
