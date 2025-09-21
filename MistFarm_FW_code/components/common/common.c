@@ -8,6 +8,7 @@
 #include "mistfarm/config.h"
 
 PresentStatus save_status = {
+	.device_id = "DEVICE_001",
 	.latit = 0,
 	.longi = 0,
 	.temp = 25,

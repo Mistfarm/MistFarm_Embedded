@@ -28,6 +28,8 @@
 #define DNS_MAX_LEN 256
 
 typedef struct PresentStatus{
+	
+  const char *device_id;//고유 ID
   double latit; // 위도
   double longi; // 경도
   double temp;
