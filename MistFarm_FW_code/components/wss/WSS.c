@@ -78,7 +78,6 @@ void wss_task(void *pvParameters) {
     
     esp_websocket_client_start(client);
     while (1) {
-
         if (esp_websocket_client_is_connected(client)) {
 			// 코드 작성 요함(전송코드)
 			ESP_LOGI(WSS_TAG, "연결됨");
