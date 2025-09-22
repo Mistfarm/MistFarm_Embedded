@@ -20,4 +20,4 @@ PresentStatus save_status = {
 const char *GPS_TAG = "GPS";
 const char *WSS_TAG = "WSS";
 
-EventGroupHandle_t wifi_event_group;
+extern EventGroupHandle_t wifi_event_group;
