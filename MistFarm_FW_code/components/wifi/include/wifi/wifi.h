@@ -10,14 +10,14 @@
 
 #include "mistfarm/config.h"
 
-#include "freertos/FreeRTOS.h"
-#include "freertos/event_groups.h"
-#include "esp_wifi.h"
-#include "esp_event.h"
-#include "esp_log.h"
-#include "esp_system.h"
-#include "nvs_flash.h"
-#include "esp_netif.h"
+//#include "freertos/FreeRTOS.h"
+//#include "freertos/event_groups.h"
+//#include "esp_wifi.h"
+//#include "esp_event.h"
+//#include "esp_log.h"
+//#include "esp_system.h"
+//#include "nvs_flash.h""
+//#include "esp_netif.h"
 
 // Wi-Fi 연결 완료 시 세트될 비트
 #define WIFI_CONNECTED_BIT BIT0

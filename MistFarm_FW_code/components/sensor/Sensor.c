@@ -1,5 +1,5 @@
 /*
- * Sensor.h
+ * Sensor.c
  *
  *  Created on: 2025. 9. 7.
  *      Author: user
@@ -14,20 +14,20 @@
 #include "hal/adc_types.h"
 #include <math.h>
 
-#define I2C_MASTER_SCL_IO 22
-#define I2C_MASTER_SDA_IO 21
-#define I2C_MASTER_NUM I2C_NUM_0
-#define I2C_MASTER_FREQ_HZ 100000
+//#define I2C_MASTER_SCL_IO 22
+//#define I2C_MASTER_SDA_IO 21
+//#define I2C_MASTER_NUM I2C_NUM_0
+//#define I2C_MASTER_FREQ_HZ 100000
 
-#define SHT45_ADDR 0x44
+//#define SHT45_ADDR 0x44
 #define TAG "SENSOR"
 
 // NTC 설정
-#define NTC_ADC_CHANNEL ADC1_CHANNEL_6 // GPIO34
-#define NTC_SERIES_RESISTOR 10000.0    // 직렬 저항 10k
-#define NTC_NOMINAL 10000.0            // NTC 저항값 @25℃
-#define TEMP_NOMINAL 25.0
-#define B_COEFFICIENT 3435.0           // B 값
+//#define NTC_ADC_CHANNEL ADC1_CHANNEL_6 // GPIO34
+//#define NTC_SERIES_RESISTOR 10000.0    // 직렬 저항 10k
+//#define NTC_NOMINAL 10000.0            // NTC 저항값 @25℃
+//#define TEMP_NOMINAL 25.0
+//#define B_COEFFICIENT 3435.0           // B 값
 
 // SHT45 (습도 센서) 초기화
 void humi_init() {
@@ -81,4 +81,21 @@ float get_ntc_temperature() {
     steinhart -= 273.15;
 
     return steinhart;
+}
+
+void env_task(void *pvParameters) {
+    humi_init();
+    
+    ESP_LOGI("SENSOR_TASK", "sensor task start");
+
+    for (;;) {
+        float temp = get_ntc_temperature();
+        float humi = get_sht45_humidity();
+     
+        save_status.temp = temp;
+        save_status.humi = humi;
+
+        ESP_LOGI("SENSOR_TASK", "%.2f, %.2f %%", temp, humi);
+        vTaskDelay(pdMS_TO_TICKS(5000));
+    }
 }
