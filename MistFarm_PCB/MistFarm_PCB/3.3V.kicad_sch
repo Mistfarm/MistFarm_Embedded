@@ -1897,7 +1897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080cddec-c8db-4195-a3e4-f5810ef3df94")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 152.4 52.0699 0)
 			(effects
 				(font
@@ -1951,7 +1951,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1967,7 +1967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1994a2d6-4e5c-4f44-abba-0813586c4d8d")
-		(property "Reference" "C19"
+		(property "Reference" "C14"
 			(at 99.06 63.0681 0)
 			(effects
 				(font
@@ -1985,7 +1985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "footprints:CAPMP7.6X4.3_4.3N_KEM-L"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -2003,7 +2003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
+		(property "Description" "Polarized capacitor, small US symbol, T495X477K010ATE100"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -2021,7 +2021,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "C19")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1daefcc8-5765-4c8a-a7bb-e291ce8c00bd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 149.86 31.75 0)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 		(instances
 			(project "MistFarm_PCB"
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6150ff3b-f5d5-4349-b1f9-6d9afcafe683")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 110.49 63.4999 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2585,7 +2585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91387af3-2ccd-4b34-b90b-46f4bc1c0a12")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 115.57 77.47 0)
 			(effects
 				(font
@@ -2635,7 +2635,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "#PWR024")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2810,7 +2810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e35811da-0d34-4856-99be-ba4f2353b15f")
-		(property "Reference" "C21"
+		(property "Reference" "C16"
 			(at 144.78 63.4999 0)
 			(effects
 				(font
@@ -2819,7 +2819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 144.78 66.0399 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "MistFarm_PCB"
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/e87aa4b1-b142-4dda-94dc-9822a5c5d024"
-					(reference "C21")
+					(reference "C16")
 					(unit 1)
 				)
 			)
