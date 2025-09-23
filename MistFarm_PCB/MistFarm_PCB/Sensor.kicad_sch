@@ -1392,7 +1392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SHT45-AD1B-R3:SHT4x_SEN"
+		(property "Footprint" "SHT45_AD1B_R3:SHT4x_SEN"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ae9a25-d4f1-4119-be32-d7161b075de2")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 34.29 147.32 0)
 			(effects
 				(font
@@ -1660,7 +1660,7 @@
 		(instances
 			(project "MistFarm_PCB"
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/eabb6d66-75de-49cc-9554-07b6f8fd9924"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1676,7 +1676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4679d120-3083-4ad3-a253-d1f2ae4095e1")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 105.41 101.6 0)
 			(effects
 				(font
@@ -1727,7 +1727,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/eabb6d66-75de-49cc-9554-07b6f8fd9924"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1743,7 +1743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81917193-8589-4861-9d80-e967ebd3522b")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 13.97 99.06 90)
 			(effects
 				(font
@@ -1805,7 +1805,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/eabb6d66-75de-49cc-9554-07b6f8fd9924"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d20bfe5-99a2-4f7c-809a-8f170dbeb424")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 57.15 124.4599 0)
 			(effects
 				(font
@@ -1875,7 +1875,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/eabb6d66-75de-49cc-9554-07b6f8fd9924"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb250e0f-c50d-4bc1-a7a4-d1d1884cc8ca")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 54.61 110.49 0)
 			(effects
 				(font
@@ -2028,7 +2028,7 @@
 		(instances
 			(project ""
 				(path "/341a7a15-82cf-4310-8068-7e972317a825/eabb6d66-75de-49cc-9554-07b6f8fd9924"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

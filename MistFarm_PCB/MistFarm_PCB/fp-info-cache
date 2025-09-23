@@ -1,4 +1,4 @@
-25216088881697689
+25230155394014205
 1N4007FLTR
 SODFL3618X110N
 
@@ -13,6 +13,13 @@ AMPHENOL_12402012E212A
 0
 16
 16
+61300311121
+WURTH_61300311121
+
+
+0
+3
+3
 61300511121
 61300511121
 
@@ -41,6 +48,13 @@ audio belton reverb
 0
 7
 7
+B2B_PH_K_S
+JST_B2B-PH-K-S
+
+
+0
+2
+2
 BLM21PG221SN1D
 BEADC2012X105N
 
@@ -55264,6 +55278,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DMG3415UQ-7
+SOT96P240X110-3N
+DMG3415UQ-7
+MOSFET (N-Channel)
+0
+3
+3
 Diode_SMD
 DIOM5226X220N
 
@@ -65918,6 +65939,13 @@ Capacitor Polarised
 0
 4
 4
+MBR120VLSFT1G
+DIOM3616X98N
+
+
+0
+2
+2
 MOSFET
 Analog_TO-46-4_ThermalShield
 TO-46-4 with Valox case, based on https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf
@@ -93078,6 +93106,13 @@ SW_SKRPABE010
 0
 4
 4
+SL2.1A
+SO16
+<b>Small Outline package</b> 150 mil
+
+0
+16
+16
 SMA-J-P-X-ST-TH1
 SAMTEC_SMA-J-P-X-ST-TH1
 
@@ -101447,6 +101482,27 @@ WE-TPC_2811
 WE-TPC_2811
 
 
+0
+2
+2
+footprints
+CAPMP7.6X4.3_4.3N_KEM
+
+T495X477K010ATE100 
+0
+2
+2
+footprints
+CAPMP7.6X4.3_4.3N_KEM-L
+
+T495X477K010ATE100 
+0
+2
+2
+footprints
+CAPMP7.6X4.3_4.3N_KEM-M
+
+T495X477K010ATE100 
 0
 2
 2
