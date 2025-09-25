@@ -3,7 +3,11 @@ idf_component_register(
     INCLUDE_DIRS "include"
     REQUIRES
         common
-        driver
-        freertos
+        esp_websocket_client
+		freertos
+		driver
+		esp_event
+		nvs_flash
+		cjson
         log
 )

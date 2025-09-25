@@ -8,6 +8,7 @@
 #include "mistfarm/config.h"
 
 PresentStatus save_status = {
+	.device_id = "DEVICE_001",
 	.latit = 0,
 	.longi = 0,
 	.temp = 25,
@@ -19,4 +20,4 @@ PresentStatus save_status = {
 const char *GPS_TAG = "GPS";
 const char *WSS_TAG = "WSS";
 
-EventGroupHandle_t wifi_event_group;
+extern EventGroupHandle_t wifi_event_group;

@@ -27,7 +27,22 @@
 #define DNS_PORT 53
 #define DNS_MAX_LEN 256
 
+#define NTC_ADC_CHANNEL       ADC1_CHANNEL_6  // GPIO34
+#define NTC_SERIES_RESISTOR   10000.0
+#define NTC_NOMINAL           10000.0
+#define TEMP_NOMINAL          25.0
+#define B_COEFFICIENT         3435.0
+
+#define I2C_MASTER_SCL_IO 22
+#define I2C_MASTER_SDA_IO 21
+#define I2C_MASTER_NUM I2C_NUM_0
+#define I2C_MASTER_FREQ_HZ 100000
+
+#define SHT45_ADDR 0x44
+
 typedef struct PresentStatus{
+	
+  const char *device_id;//고유 ID
   double latit; // 위도
   double longi; // 경도
   double temp;

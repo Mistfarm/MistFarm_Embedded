@@ -1,11 +1,15 @@
 idf_component_register(
-    SRCS "common.c"                # 비어 있어도 최소 1개 필요
-    INCLUDE_DIRS "include"         # include/mistfarm/ 아래 노출
+    SRCS "common.c"
+    INCLUDE_DIRS "include"
     REQUIRES 
-        esp_websocket_client       # config/global에서 사용
+        esp_websocket_client
         freertos 
         driver 
         esp_event 
         nvs_flash 
         cjson
+        esp_log
+        esp_wifi
+        esp_system
+        esp_netif
 )
