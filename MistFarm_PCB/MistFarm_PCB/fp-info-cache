@@ -1,4 +1,4 @@
-25230155394014205
+25233673441696425
 1N4007FLTR
 SODFL3618X110N
 
@@ -27,6 +27,13 @@ WURTH_61300311121
 0
 5
 5
+61300811121
+61300811121
+
+
+0
+8
+8
 ABM3B-8.000MHZ-B2-T
 XTAL_ABM3B-8.000MHZ-B2-T
 
@@ -55275,6 +55282,13 @@ Crystal
 Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+DMG3415U-7
+SOT95P240X105-3N
+
+
 0
 3
 3
