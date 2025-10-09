@@ -8,7 +8,7 @@ idf_component_register(
         esp_event 
         nvs_flash 
         cjson
-        esp_log
+        log
         esp_wifi
         esp_system
         esp_netif
