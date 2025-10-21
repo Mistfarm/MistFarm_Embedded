@@ -1,0 +1,2 @@
+#define CMakeLists.txt_VERSION_MAJOR @CMakeLists.txt_VERSION_MAJOR@
+#define CMakeLists.txt_VERSION_MINOR @CMakeLists.txt_VERSION_MINOR@

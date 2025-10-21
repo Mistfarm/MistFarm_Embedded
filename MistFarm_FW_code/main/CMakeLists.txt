@@ -9,4 +9,5 @@ idf_component_register(
         sensor
         switching
         cjson
+        ota_update
 )

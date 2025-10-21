@@ -6,13 +6,7 @@
  */
 
 #include "sensor/sensor.h"
-#include "driver/i2c.h"
-#include "driver/adc.h"
-#include "esp_log.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "hal/adc_types.h"
-#include <math.h>
+
 
 //#define I2C_MASTER_SCL_IO 22
 //#define I2C_MASTER_SDA_IO 21
@@ -96,6 +90,6 @@ void env_task(void *pvParameters) {
         save_status.humi = humi;
 
         ESP_LOGI("SENSOR_TASK", "%.2f, %.2f %%", temp, humi);
-        vTaskDelay(pdMS_TO_TICKS(5000));
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }

@@ -1,5 +1,5 @@
 /*
- * wifi.h
+ * wifi.c
  *
  *  Created on: 2025. 9. 7.
  *      Author: user

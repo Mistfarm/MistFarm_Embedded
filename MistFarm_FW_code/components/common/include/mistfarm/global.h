@@ -28,4 +28,16 @@
 #include "nvs_flash.h"
 #include "esp_netif.h"
 
+//ota_update
+#include "esp_ota_ops.h"    
+#include "esp_http_client.h"   
+#include "esp_https_ota.h"     
+#include "esp_system.h"  
+
+//sensor
+#include "driver/i2c.h"
+#include "driver/adc.h"
+#include "hal/adc_types.h"
+#include <math.h>
+
 #endif /* COMPONENTS_GLOBAL_H_ */
