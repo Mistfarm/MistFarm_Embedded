@@ -9,6 +9,7 @@
 #define COMPONENTS_CONFIG_H_
 
 #include "mistfarm/global.h"
+#include <sys/_intsup.h>
 
 #define AC_TRIAC_SWITCHING 27
 #define TEMP_SENSOR 25
@@ -34,8 +35,12 @@ typedef struct PresentStatus{
   double longi; // 경도
   double temp;
   double humi;
-  uint8_t on_time;
-  uint8_t off_time;
+  unsigned int on_time;
+  unsigned int off_time;
+  int fogger_on; // 얘 왜 넣음?
+  uint8_t fogger_toggle;
+  int water_level;
+  
 }PresentStatus;
 
 extern PresentStatus save_status;

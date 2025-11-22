@@ -14,7 +14,10 @@ PresentStatus save_status = {
 	.temp = 25,
 	.humi = 50,
 	.on_time = 10, // 단위 second
-	.off_time = 10
+	.off_time = 10,
+	.fogger_on= 0,
+	.fogger_toggle = 0,
+	.water_level = 200
 };
 
 const char *GPS_TAG = "GPS";

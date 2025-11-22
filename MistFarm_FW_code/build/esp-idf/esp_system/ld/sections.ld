@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\work\github\MistFarm_Embedded\MistFarm_FW_code\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\user\Repository\MistFarm_Embedded\MistFarm_FW_code\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/github/MistFarm_Embedded/MistFarm_FW_code/managed_components/espressif__esp_websocket_client
+# Install script for directory: C:/Users/user/Repository/MistFarm_Embedded/MistFarm_FW_code/managed_components/espressif__esp_websocket_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
